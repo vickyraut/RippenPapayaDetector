@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/datsets/papayadatasetyolov8/train/images
+val: /content/drive/MyDrive/datsets/papayadatasetyolov8/valid/images
+test: /content/drive/MyDrive/datsets/papayadatasetyolov8/test/images
+
+nc: 2
+names: ['Pepaya rippen', 'Pepaya unrippen']
+
+roboflow:
+  workspace: unib
+  project: greebel
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/unib/greebel/dataset/1
